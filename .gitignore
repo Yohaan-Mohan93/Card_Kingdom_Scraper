@@ -1,3 +1,6 @@
 # created by virtualenv automatically
 /Lib
 /Scripts
+/.idea
+/Card_Kingdom
+/Card_Kingdom_Scraper

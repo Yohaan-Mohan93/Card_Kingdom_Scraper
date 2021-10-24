@@ -14,7 +14,7 @@ class CkMtgCard:
 
     def to_string(self):
         return (self.name + "|" + self.type + "|" + self.set + "|" + self.rarity + "|"
-                + self.nm_price + "|" + self.ex_price + "|" + self.vg_price + self.g_price)
+                + str(self.nm_price) + "|" + str(self.ex_price) + "|" + str(self.vg_price) + str(self.g_price))
 
 
 @dataclass
@@ -23,3 +23,6 @@ class CkCardPlacement:
     set: str
     place_in_page: int
     page_number: int
+
+    def to_string(self):
+        return self.name + "|" + self.set + "|" + str(self.place_in_page) + "|" + str(self.page_number)
