@@ -4,3 +4,5 @@
 /.idea
 /Card_Kingdom
 /Card_Kingdom_Scraper
+*.zip
+*.sql

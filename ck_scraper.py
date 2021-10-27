@@ -41,6 +41,8 @@ def scrape(start_url, card_list, urls, all_cards_placements, page_number):
         card_types = bs.find_all(class_='productDetailType')
         card_sets = bs.find_all(class_='productDetailSet')
         card_prices = bs.find_all(class_='stylePrice')
+        card_id = int(bs.find_all(class_='resultsHeader')[0].getText().split(' ')[0])
+        card_texts = bs.find_all(class_='detailFlavortext')
 
         for names in card_names:
             this_name = names.getText().strip()
@@ -56,25 +58,28 @@ def scrape(start_url, card_list, urls, all_cards_placements, page_number):
             this_ex = 0.0
             this_vg = 0.0
             this_g = 0.0
+            this_text = card_texts[set_count].getText().strip()
             set_count += 1
 
             for j in range(4):
                 string = card_prices[price_count].getText().strip()
                 if j == 0:
-                    this_nm = float(string[1:len(string) - 1])
+                    this_nm = float(string[1:len(string)])
                 elif j == 1:
-                    this_ex = float(string[1:len(string) - 1])
+                    this_ex = float(string[1:len(string)])
                 elif j == 2:
-                    this_vg = float(string[1:len(string) - 1])
+                    this_vg = float(string[1:len(string)])
                 elif j == 3:
-                    this_g = float(string[1:len(string) - 1])
+                    this_g = float(string[1:len(string)])
                 price_count += 1
 
             this_set = this_set_rarity[0]
             this_rarity = this_set_rarity[1][0]
 
-            card_list.append(CkMtgCard(this_name, this_type, this_set, this_rarity, this_nm, this_ex, this_vg, this_g))
+            card_list.append(CkMtgCard(card_id, this_name, this_type, this_set,
+                                       this_rarity, this_nm, this_ex, this_vg, this_g,this_text))
             all_cards_placements.append(CkCardPlacement(this_name, this_set, set_count, page_number))
+            card_id += 1
 
     except HTTPError as e:
         print(e)

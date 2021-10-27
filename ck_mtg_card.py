@@ -3,6 +3,7 @@ from dataclasses import dataclass
 
 @dataclass
 class CkMtgCard:
+    id: int
     name: str
     type: str
     set: str
@@ -11,10 +12,12 @@ class CkMtgCard:
     ex_price: float
     vg_price: float
     g_price: float
+    card_text : str
 
     def to_string(self):
-        return (self.name + "|" + self.type + "|" + self.set + "|" + self.rarity + "|"
-                + str(self.nm_price) + "|" + str(self.ex_price) + "|" + str(self.vg_price) + str(self.g_price))
+        return (str(self.id) +'|' + self.name + "|" + self.type + "|" + self.set + "|" + self.rarity + "|"
+                + str(self.nm_price) + "|" + str(self.ex_price) + "|" + str(self.vg_price) + '|' +str(self.g_price)
+                + "|" + self.card_text)
 
 
 @dataclass
