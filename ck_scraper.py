@@ -58,7 +58,7 @@ def scrape(start_url, card_list, urls, all_cards_placements, page_number):
             this_ex = 0.0
             this_vg = 0.0
             this_g = 0.0
-            this_text = card_texts[set_count].getText().strip()
+            this_text = card_texts[set_count].getText().strip().replace('\n', ' ')
             set_count += 1
 
             for j in range(4):

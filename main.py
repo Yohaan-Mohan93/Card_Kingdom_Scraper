@@ -44,29 +44,29 @@ if __name__ == "__main__":
     scrape_increment = int(last_page_number/4)
     print("The last page is ", last_page_number)
 
-    #scrape_size += scrape_increment
-    thread1 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, 1, 5))
+    scrape_size += scrape_increment
+    thread1 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, 1, scrape_size))
 
-    #temp = scrape_size
-    #scrape_size += scrape_increment
-    #thread2 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
+    temp = scrape_size
+    scrape_size += scrape_increment
+    thread2 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
 
-    #temp = scrape_size
-    #scrape_size += scrape_increment
-    #thread3 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
+    temp = scrape_size
+    scrape_size += scrape_increment
+    thread3 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
 
-    #temp = scrape_size
-    #thread4 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, (last_page_number + 1)))
+    temp = scrape_size
+    thread4 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, (last_page_number + 1)))
 
     thread1.start()
-    #thread2.start()
-    #thread3.start()
-    #thread4.start()
+    thread2.start()
+    thread3.start()
+    thread4.start()
 
     thread1.join()
-    #thread2.join()
-    #thread3.join()
-    #thread4.join()
+    thread2.join()
+    thread3.join()
+    thread4.join()
 
     print("Scraping ended")
 
@@ -92,12 +92,13 @@ if __name__ == "__main__":
         time_string = 'Total Execution Time: ' + str(time_taken_hrs) + ' minutes'
         file_handle.write('%s' % time_string)
 
-    my_zip = zipfile.ZipFile(date_today + ".zip", 'w')
-    my_zip.write(cknf_prices_filename)
-    my_zip.write(cknf_urls_filename)
-    my_zip.write(cknf_cards_filename)
-    my_zip.close()
+    shutil.make_archive(base_name=date_today,format='zip',root_dir='Card_Kingdom/28102021')
 
     target = 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CK_PRICES_' + date_today + '.txt';
     shutil.copyfile(cknf_prices_filename, target)
     shutil.copyfile(date_today + ".zip", 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today + '.zip')
+    os.remove(date_today + '.zip')
+
+    results = create_directory('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today)
+    shutil.unpack_archive(filename='C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today + '.zip',
+                          format='zip',extract_dir='C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today)
