@@ -1,10 +1,10 @@
-from ck_scraper import scrape
 from datetime import date
 from helper import *
+from CK_Py_Scripts.ck_scraper import scrape
+from CK_Py_Scripts.ck_mtg_card import *
 import time
 import threading
 import shutil
-import zipfile
 
 
 def scraping_task(the_card_list, the_urls, card_placements, start_page, end_page):
@@ -41,64 +41,64 @@ if __name__ == "__main__":
     print("Starting Scraping")
 
     last_page_number = find_number_of_pages(True)
-    scrape_increment = int(last_page_number/4)
-    print("The last page is ", last_page_number)
-
-    scrape_size += scrape_increment
-    thread1 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, 1, scrape_size))
-
-    temp = scrape_size
-    scrape_size += scrape_increment
-    thread2 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
-
-    temp = scrape_size
-    scrape_size += scrape_increment
-    thread3 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
-
-    temp = scrape_size
-    thread4 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, (last_page_number + 1)))
-
-    thread1.start()
-    thread2.start()
-    thread3.start()
-    thread4.start()
-
-    thread1.join()
-    thread2.join()
-    thread3.join()
-    thread4.join()
-
-    print("Scraping ended")
-
-    card_list.sort(key=lambda card: card.name)
-    all_card_placements.sort(key=lambda card: card.name)
-
-    with open(cknf_prices_filename, 'w') as file_handle:
-        file_handle.write("ID|Name|Type|Set|Rarity|NM(USD)|EX(USD)|VG(USD)|G(USD)|Card Text\n")
-        for list_item in card_list:
-            file_handle.write('%s\n' % list_item.to_string())
-
-    with open(cknf_cards_filename, 'w') as file_handle:
-        file_handle.write("Name|Set|Place In Page |Page Number\n")
-        for list_item in all_card_placements:
-            file_handle.write('%s\n' % list_item.to_string())
-
-    end_time = time.time()
-    time_taken_hrs = (end_time - start_time) / 60
-
-    with open(cknf_urls_filename, 'w') as file_handle:
-        for list_item in urls:
-            file_handle.write('%s\n' % list_item)
-        time_string = 'Total Execution Time: ' + str(time_taken_hrs) + ' minutes'
-        file_handle.write('%s' % time_string)
-
-    shutil.make_archive(base_name=date_today,format='zip',root_dir='Card_Kingdom/' + date_today)
-
-    target = 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CK_PRICES_' + date_today + '.txt';
-    shutil.copyfile(cknf_prices_filename, target)
-    shutil.copyfile(date_today + ".zip", 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today + '.zip')
-    os.remove(date_today + '.zip')
-
-    results = create_directory('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today)
-    shutil.unpack_archive(filename='C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today + '.zip',
-                          format='zip',extract_dir='C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today)
+    #scrape_increment = int(last_page_number/4)
+    #print("The last page is ", last_page_number)
+    #
+    #scrape_size += scrape_increment
+    #thread1 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, 1, scrape_size))
+    #
+    #temp = scrape_size
+    #scrape_size += scrape_increment
+    #thread2 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
+    #
+    #temp = scrape_size
+    #scrape_size += scrape_increment
+    #thread3 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, scrape_size))
+    #
+    #temp = scrape_size
+    #thread4 = threading.Thread(target=scraping_task, args=(card_list, urls, all_card_placements, temp, (last_page_number + 1)))
+    #
+    #thread1.start()
+    #thread2.start()
+    #thread3.start()
+    #thread4.start()
+    #
+    #thread1.join()
+    #thread2.join()
+    #thread3.join()
+    #thread4.join()
+    #
+    #print("Scraping ended")
+    #
+    #card_list.sort(key=lambda card: card.id)
+    #all_card_placements.sort(key=lambda card: card.name)
+    #
+    #with open(cknf_prices_filename, 'w') as file_handle:
+    #    file_handle.write("ID|Name|Type|Set|Rarity|NM(USD)|EX(USD)|VG(USD)|G(USD)|Card Text\n")
+    #    for list_item in card_list:
+    #        file_handle.write('%s\n' % list_item.to_string())
+    #
+    #with open(cknf_cards_filename, 'w') as file_handle:
+    #    file_handle.write("Name|Set|Place In Page |Page Number\n")
+    #    for list_item in all_card_placements:
+    #        file_handle.write('%s\n' % list_item.to_string())
+    #
+    #end_time = time.time()
+    #time_taken_hrs = (end_time - start_time) / 60
+    #
+    #with open(cknf_urls_filename, 'w') as file_handle:
+    #    for list_item in urls:
+    #        file_handle.write('%s\n' % list_item)
+    #    time_string = 'Total Execution Time: ' + str(time_taken_hrs) + ' minutes'
+    #    file_handle.write('%s' % time_string)
+    #
+    #shutil.make_archive(base_name=date_today,format='zip',root_dir='Card_Kingdom/' + date_today)
+    #
+    #target = 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CK_PRICES_' + date_today + '.txt';
+    #shutil.copyfile(cknf_prices_filename, target)
+    #shutil.copyfile(date_today + ".zip", 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today + '.zip')
+    #os.remove(date_today + '.zip')
+    #
+    #results = create_directory('C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today)
+    #shutil.unpack_archive(filename='C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today + '.zip',
+    #                      format='zip',extract_dir='C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/' + date_today)

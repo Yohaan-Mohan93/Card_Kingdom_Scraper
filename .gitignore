@@ -4,6 +4,6 @@
 /.idea
 /Card_Kingdom
 /Card_Kingdom_Scraper
+/Star_City_Games
 *.zip
 *.sql
-scg_urls.txt

@@ -1,7 +1,7 @@
 from urllib.request import urlopen, Request
 from urllib.error import HTTPError, URLError
 from bs4 import BeautifulSoup
-from ck_mtg_card import *
+from .ck_mtg_card import *
 import re
 
 
@@ -20,7 +20,8 @@ def scrape_page_numbers(url):
     init = Request(url, headers={'User-Agent': this_user_agent})
     init_html = urlopen(init)
     init_bs = BeautifulSoup(init_html.read(), 'html.parser')
-    final_page = int(init_bs.find_all(class_='btn btn-default col-xs-4')[1].getText().split(' ')[3])
+    final_page = int(init_bs.find_all('li', class_='page-item')[4].getText())
+    print(final_page)
 
     return final_page
 

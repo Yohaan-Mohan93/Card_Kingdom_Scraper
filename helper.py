@@ -1,4 +1,4 @@
-from ck_scraper import *
+from CK_Py_Scripts.ck_scraper import *
 import os
 
 

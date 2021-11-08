@@ -1,4 +1,3 @@
-from datetime import date
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -7,6 +6,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from helper import create_directory
 
 def get_set_name(set_url):
       name = set_url.split('/')[5]
@@ -50,7 +50,11 @@ try:
                   url_dictionary[set_name] = set_url
                   print('Set Name: ', set_name, ', Set URL; ', set_url)
 
-      with open('scg_urls.txt','w') as file_handle:
+      path_to_file = 'Star_City_Games/URLs'
+      result = create_directory(path_to_file)
+      url_filename = path_to_file + '/scg_urls.txt'
+
+      with open(url_filename,'w') as file_handle:
             file_handle.write('Set_Name|Set_URL')
             for key,value in url_dictionary.items():
                   file_handle.write('%s|%s\n' %(key,value))
