@@ -92,7 +92,7 @@ if __name__ == "__main__":
         time_string = 'Total Execution Time: ' + str(time_taken_hrs) + ' minutes'
         file_handle.write('%s' % time_string)
 
-    shutil.make_archive(base_name=date_today,format='zip',root_dir='Card_Kingdom/28102021')
+    shutil.make_archive(base_name=date_today,format='zip',root_dir='Card_Kingdom/' + date_today)
 
     target = 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/CK_PRICES_' + date_today + '.txt';
     shutil.copyfile(cknf_prices_filename, target)

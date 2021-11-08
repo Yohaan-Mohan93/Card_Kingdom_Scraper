@@ -8,12 +8,22 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
+def get_set_name(set_url):
+      name = set_url.split('/')[5]
+      names = name.split('-')
+
+      for i in range(len(names)):
+            names[i] = names[i].capitalize()
+
+      set_name = ' '.join(names).strip()
+      return set_name
+
 options = Options()
 options.headless = True
 
 service = Service(ChromeDriverManager().install())
 
-browser = webdriver.Chrome(service=service)
+browser = webdriver.Chrome(service=service, options=options)
 browser.get('https://starcitygames.com/shop/singles/#')
 
 try:
@@ -32,9 +42,11 @@ try:
       for year in range(1993,current_year):
             year_list = wait.until(EC.presence_of_element_located((By.ID,'tab_list_' + str(year))))
             set_list = year_list.find_element(By.CLASS_NAME,'content').find_elements(By.TAG_NAME,'li')
-            for i in range(len(set_list),0):
-                  set_name = set_list[i].text
+            for i in range(len(set_list) - 1 ,-1, -1):
                   set_url = set_list[i].find_element(By.TAG_NAME,'a').get_attribute('href')
+                  set_name = get_set_name(set_url)
+                  if 'Black Border' in set_name:
+                        continue
                   url_dictionary[set_name] = set_url
                   print('Set Name: ', set_name, ', Set URL; ', set_url)
 
@@ -45,7 +57,4 @@ try:
 
 except Exception as e:
       print("Failed because ", e)
-#li = odd_year_list.find_element(By.CLASS_NAME,'content').find_elements(By.TAG_NAME, 'li')
-#print('Section ', odd_year_list.find_element_by_tag_name('h3').text ,' : ' ,
- #     len(li), li[0].find_element_by_tag_name('a').get_attribute('href'), li[0].text)
 
