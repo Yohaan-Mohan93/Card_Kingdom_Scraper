@@ -1,3 +1,4 @@
+from datetime import date
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -55,7 +56,7 @@ try:
       url_filename = path_to_file + '/scg_urls.txt'
 
       with open(url_filename,'w') as file_handle:
-            file_handle.write('Set_Name|Set_URL')
+            file_handle.write('Set_Name|Set_URL\n')
             for key,value in url_dictionary.items():
                   file_handle.write('%s|%s\n' %(key,value))
 

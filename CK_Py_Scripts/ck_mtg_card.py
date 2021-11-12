@@ -18,6 +18,9 @@ class CkMtgCard:
         return (str(self.id) +'|' + self.name + "|" + self.type + "|" + self.set + "|" + self.rarity + "|"
                 + str(self.nm_price) + "|" + str(self.ex_price) + "|" + str(self.vg_price) + '|' +str(self.g_price)
                 + "|" + self.card_text)
+    
+    
+
 
 
 @dataclass
