@@ -5,21 +5,20 @@ from CK_Py_Scripts.ck_mtg_card import *
 import shutil
 import time
 import threading
+import logging
 
 
 def ck_scraping_task(start_url, set_name, the_card_list, the_urls, card_placements):
     edition = start_url[5:]
     print(edition)
     url = 'https://www.cardkingdom.com/catalog/search?search=mtg_advanced&filter%5Bsort%5D=name&filter%' \
-          '5Bsearch%5D=mtg_advanced&filter%5Btab%5D=mtg_card&filter%5Bname%5D=&filter%5Bedition%5D=' + edition +'&' \
-          'filter%5Btype_mode%5D=any&filter%5Bcard_type%5D%5B10%5D=&filter%5Bpow1%5D=&filter%5Bpow2%5D=&filter%5Btuf1' \
-          '%5D=&filter%5Btuf2%5D=&filter%5Bconcast1%5D=&filter%5Bconcast2%5D=&filter%5Bprice_op%5D=&filter%5Bprice%5D=' \
-          '&filter%5Boracle_text%5D=&filter%5Bmanaprod_select%5D=any'
-    print("Set: ", set_name )
-    print("Url: ", url)
+      '5Bsearch%5D=mtg_advanced&filter%5Btab%5D=mtg_card&filter%5Bname%5D=&filter%5Bedition%5D=' + edition + \
+      '&filter%5Btype_mode%5D=any&filter%5Bcard_type%5D%5B10%5D=&filter%5Bpow1%5D=&filter%5Bpow2%5D=&filter%5Btuf1' \
+      '%5D=&filter%5Btuf2%5D=&filter%5Bconcast1%5D=&filter%5Bconcast2%5D=&filter%5Bprice_op%5D=&filter%5Bprice%5D=' \
+      '&filter%5Boracle_text%5D=&filter%5Bmanaprod_select%5D=any'
     scrape(url, the_card_list, the_urls, card_placements)
-    print("Number of Cards: ", len(card_list))
-    print("Number of Card Placements: ", len(all_card_placements))
+    print("Final Number of Cards: ", len(card_list))
+    print("Final Number of Card Placements: ", len(all_card_placements))
 
 
 if __name__ == "__main__":

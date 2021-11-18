@@ -1,6 +1,9 @@
 import os
 import csv
+import re
 
+def has_number(input_string):
+    return bool(re.search(r'\d', input_string))
 
 def create_directory(path_to_file):
     if not os.path.exists(path_to_file):
