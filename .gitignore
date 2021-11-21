@@ -7,5 +7,6 @@
 /Star_City_Games
 *.zip
 *.sql
+*.class
 set_output.txt
 test_output.txt
