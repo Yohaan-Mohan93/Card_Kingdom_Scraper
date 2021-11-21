@@ -23,7 +23,7 @@ def scrape(start_url, card_list, urls, all_cards_placements):
         wait = WebDriverWait(browser, 20)
 
         pages =  wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.page-item a')))
-        total_pages = pages[len(pages) - 2 ].text
+        total_pages = int(pages[len(pages) - 2 ].text)
         page_number = 1
 
         while(page_number <= (total_pages)):
@@ -42,7 +42,7 @@ def scrape(start_url, card_list, urls, all_cards_placements):
                 this_type = ''
                 if has_number(card_type):
                     types = re.split('(\d+)', card_type)
-                    this_type = types[len(types) - 1].strip()
+                    this_type = types[len(types)].strip()
                 else:
                     this_type = card_type.strip()
                 this_set_rarity = card_sets[set_count].text.strip().split('(')
