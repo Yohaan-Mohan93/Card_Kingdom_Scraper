@@ -1,0 +1,326 @@
+ID|Name|Type|Set|Rarity|NM(USD)|EX(USD)|VG(USD)|G(USD)|Card Text
+0|Underground Sea|and - Island Swamp|3rd Edition |R|999.99|899.99|799.99|699.99|: Add or .
+0|Bayou|and - Swamp Forest|3rd Edition |R|699.99|629.99|559.99|489.99|: Add or .
+0|Tropical Island|and - Forest Island|3rd Edition |R|899.99|809.99|719.99|629.99|: Add or .
+0|Volcanic Island|and - Island Mountain|3rd Edition |R|999.99|899.99|799.99|699.99|: Add or .
+0|Taiga|and - Mountain Forest|3rd Edition |R|449.99|404.99|359.99|314.99|: Add or .
+0|Badlands|and - Swamp Mountain|3rd Edition |R|579.99|521.99|463.99|405.99|: Add or .
+0|Tundra|and - Plains Island|3rd Edition |R|679.99|611.99|543.99|475.99|: Add or .
+0|Savannah|and - Forest Plains|3rd Edition |R|449.99|404.99|359.99|314.99|: Add or .
+0|Plateau|and - Mountain Plains|3rd Edition |R|399.99|359.99|319.99|279.99|: Add or .
+0|Wheel of Fortune|orcery|3rd Edition |R|399.99|359.99|319.99|279.99|Each player discards their hand, then draws seven cards.
+0|Scrubland|and - Plains Swamp|3rd Edition |R|449.99|404.99|359.99|314.99|: Add or .
+0|Demonic Tutor|orcery|3rd Edition |U|42.99|36.54|32.24|27.94|Search your library for a card and put that card into your hand. Then shuffle your library.
+0|Mana Vault|rtifact|3rd Edition |R|89.99|76.49|67.49|58.49|Mana Vault doesn't untap during your untap step. At the beginning of your upkeep, you may pay . If you do, untap Mana Vault. At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you. : Add .
+0|Copy Artifact|nchantment|3rd Edition |R|74.99|63.74|56.24|48.74|You may have Copy Artifact enter the battlefield as a copy of any artifact on the battlefield, except it's an enchantment in addition to its other types.
+0|Fork|nstant|3rd Edition |R|44.99|38.24|33.74|29.24|Copy target instant or sorcery spell, except that the copy is red. You may choose new targets for the copy.
+0|Sol Ring|rtifact|3rd Edition |U|15.99|13.59|11.19|8.0|: Add .
+0|Vesuvan Doppelganger|Creature - Shapeshifter|3rd Edition |R|32.99|28.04|24.74|21.44|You may have Vesuvan Doppelganger enter the battlefield as a copy of any creature on the battlefield, except it doesn’t copy that creature’s color and it has “At the beginning of your upkeep, you may have this creature become a copy of target creature, except it doesn’t copy that creature’s color and it has this ability.”
+0|Fastbond|nchantment|3rd Edition |R|27.99|23.79|20.99|18.19|You may play any number of additional lands on each of your turns. Whenever you play a land, if it wasn't the first land you played this turn, Fastbond deals 1 damage to you.
+0|Birds of Paradise|Creature - Bird|3rd Edition |R|24.99|21.24|17.49|12.5|Flying : Add one mana of any color.
+0|Braingeyser|orcery|3rd Edition |R|24.99|21.24|17.49|12.5|Target player draws X cards.
+0|Lightning Bolt|nstant|3rd Edition |C|3.49|2.79|2.44|1.75|Lightning Bolt deals 3 damage to any target.
+0|Red Elemental Blast|nstant|3rd Edition |C|1.99|1.59|1.39|1.0|Choose one - Counter target blue spell; or destroy target blue permanent.
+0|Swords to Plowshares|nstant|3rd Edition |U|5.99|4.79|4.19|3.0|Exile target creature. Its controller gains life equal to its power.
+0|Zombie Master|Creature - Zombie|3rd Edition |R|17.99|15.29|12.59|9.0|Other Zombie creatures have swampwalk. Other Zombies have ": Regenerate this permanent."
+0|Winter Orb|rtifact|3rd Edition |R|14.99|11.99|10.49|7.5|Players can't untap more than one land during their untap steps.
+0|Animate Dead|nchantment - Aura|3rd Edition |U|5.49|4.39|3.84|2.75|Enchant creature card in a graveyard When Animate Dead enters the battlefield, if it's on the battlefield, it loses "enchant creature card in a graveyard" and gains "enchant creature put onto the battlefield with Animate Dead." Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it. Enchanted creature gets -1/-0.
+0|Lord of Atlantis|Creature - Merfolk|3rd Edition |R|11.99|9.59|8.39|6.0|Other Merfolk get +1/+1 and have islandwalk.
+0|Howling Mine|rtifact|3rd Edition |R|11.99|9.59|8.39|6.0|At the beginning of each player's draw step, if Howling Mine is untapped, that player draws an additional card.
+0|Serendib Efreet|Creature - Efreet|3rd Edition |R|9.49|7.59|6.64|4.75|Flying At the beginning of your upkeep, Serendib Efreet deals 1 damage to you.
+0|Shivan Dragon|Creature - Dragon|3rd Edition |R|14.99|11.99|10.49|7.5|Flying : Shivan Dragon gets +1/+0 until end of turn.
+0|Stasis|nchantment|3rd Edition |R|9.99|7.99|6.99|5.0|Players skip their untap steps. At the beginning of your upkeep, sacrifice Stasis unless you pay .
+0|Wrath of God|orcery|3rd Edition |R|11.99|9.59|8.39|6.0|Destroy all creatures. They can't be regenerated.
+0|Savannah Lions|Creature - Cat|3rd Edition |R|7.49|5.99|5.24|3.75|
+0|Basalt Monolith|rtifact|3rd Edition |U|2.79|2.23|1.95|1.4|Basalt Monolith doesn't untap during your untap step. : Untap Basalt Monolith. : Add .
+0|Meekstone|rtifact|3rd Edition |R|7.49|5.99|5.24|3.75|Creatures with power 3 or greater don't untap during their controllers' untap steps.
+0|Island (B)|asic Land - Island|3rd Edition |L|0.69|0.55|0.48|0.35|
+0|Bad Moon|nchantment|3rd Edition |R|6.99|5.59|4.89|3.5|Black creatures get +1/+1.
+0|Ankh of Mishra|rtifact|3rd Edition |R|5.99|4.79|4.19|3.0|Whenever a land enters the battlefield, Ankh of Mishra deals 2 damage to that land's controller.
+0|Sacrifice|nstant|3rd Edition |U|2.49|1.99|1.74|1.25|As an additional cost to cast Sacrifice, sacrifice a creature. Add an amount of equal to the sacrificed creature's converted mana cost.
+0|Sedge Troll|Creature - Troll|3rd Edition |R|5.99|4.79|4.19|3.0|Sedge Troll gets +1/+1 as long as you control a Swamp. : Regenerate Sedge Troll.
+0|Mind Twist|orcery|3rd Edition |R|8.49|6.79|5.94|4.25|Target player discards X cards at random.
+0|Royal Assassin|Creature - Human Assassin|3rd Edition |R|8.49|6.79|5.94|4.25|: Destroy target tapped creature.
+0|Nevinyrral's Disk|rtifact|3rd Edition |R|7.99|6.39|5.59|4.0|Nevinyrral's Disk enters the battlefield tapped. , : Destroy all artifacts, creatures, and enchantments.
+0|Armageddon|orcery|3rd Edition |R|9.99|7.99|6.99|5.0|Destroy all lands.
+0|Mana Flare|nchantment|3rd Edition |R|9.99|7.99|6.99|5.0|Whenever a player taps a land for mana, that player adds one mana of any type that land produced.
+0|Ivory Tower|rtifact|3rd Edition |R|5.49|4.39|3.84|2.75|At the beginning of your upkeep, you gain X life, where X is the number of cards in your hand minus 4.
+0|Demonic Hordes|Creature - Demon|3rd Edition |R|6.99|5.59|4.89|3.5|: Destroy target land. At the beginning of your upkeep, unless you pay , tap Demonic Hordes and sacrifice a land of an opponent's choice.
+0|The Rack|rtifact|3rd Edition |U|1.99|1.59|1.39|1.0|As The Rack enters the battlefield, choose an opponent. At the beginning of the chosen player’s upkeep, The Rack deals X damage to that player, where X is 3 minus the number of cards in their hand.
+0|Contract from Below|orcery|3rd Edition |R|4.99|3.99|3.49|2.5|Remove Contract from Below from your deck before playing if you're not playing for ante. Discard your hand, add the top card of your library to the ante, then draw seven cards.
+0|Swamp (C)|asic Land - Swamp|3rd Edition |L|0.69|0.55|0.48|0.35|
+0|Counterspell|nstant|3rd Edition |U|3.99|3.19|2.79|2.0|Counter target spell.
+0|Island Sanctuary|nchantment|3rd Edition |R|4.49|3.59|3.14|2.25|If you would draw a card during your draw step, instead you may skip that draw. If you do, until your next turn, you can't be attacked except by creatures with flying and/or islandwalk.
+0|Smoke|nchantment|3rd Edition |R|3.99|3.19|2.79|2.0|Players can't untap more than one creature during their untap steps.
+0|Rock Hydra|Creature - Hydra|3rd Edition |R|4.99|3.99|3.49|2.5|Rock Hydra enters the battlefield with X +1/+1 counters on it. For each 1 damage that would be dealt to Rock Hydra, if it has a +1/+1 counter on it, remove a +1/+1 counter from it and prevent that 1 damage. : Prevent the next 1 damage that would be dealt to Rock Hydra this turn. : Put a +1/+1 counter on Rock Hydra. Activate this ability only during your upkeep.
+0|Library of Leng|rtifact|3rd Edition |U|1.29|1.03|0.9|0.65|You have no maximum hand size. If an effect causes you to discard a card, discard it, but you may put it on top of your library instead of into your graveyard.
+0|Mahamoti Djinn|Creature - Djinn|3rd Edition |R|3.49|2.79|2.44|1.75|Flying (This creature can't be blocked except by creatures with flying or reach.)
+0|Hypnotic Specter|Creature - Specter|3rd Edition |U|1.99|1.59|1.39|1.0|Flying Whenever Hypnotic Specter deals damage to an opponent, that player discards a card at random.
+0|Goblin King|Creature - Goblin|3rd Edition |R|4.99|3.99|3.49|2.5|Other Goblin creatures get +1/+1 and have mountainwalk. (They're unblockable as long as defending player controls a Mountain.)
+0|Verduran Enchantress|Creature - Human Druid|3rd Edition |R|3.49|2.79|2.44|1.75|Whenever you cast an enchantment spell, you may draw a card.
+0|Will-O'-The-Wisp|Creature - Spirit|3rd Edition |R|4.49|3.59|3.14|2.25|Flying (This creature can't be blocked except by creatures with flying or reach.) : Regenerate Will-o'-the-Wisp. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+0|Kormus Bell|rtifact|3rd Edition |R|6.99|5.59|4.89|3.5|All Swamps are 1/1 black creatures that are still lands.
+0|Demonic Attorney|orcery|3rd Edition |R|3.99|3.19|2.79|2.0|Remove Demonic Attorney from your deck before playing if you’re not playing for ante. Each player antes the top card of their library.
+0|Balance|orcery|3rd Edition |R|4.49|3.59|3.14|2.25|Each player chooses a number of lands they control equal to the number of lands controlled by the player who controls the fewest, then sacrifices the rest. Players discard cards and sacrifice creatures the same way.
+0|Plains (C)|asic Land - Plains|3rd Edition |L|0.49|0.39|0.34|0.25|
+0|Dark Ritual|nstant|3rd Edition |C|0.79|0.63|0.55|0.4|Add .
+0|Earthquake|orcery|3rd Edition |R|3.49|2.79|2.44|1.75|Earthquake deals X damage to each creature without flying and each player.
+0|Granite Gargoyle|Creature - Gargoyle|3rd Edition |R|5.49|4.39|3.84|2.75|Flying : Granite Gargoyle gets +0/+1 until end of turn.
+0|Forest (A)|asic Land - Forest|3rd Edition |L|0.59|0.47|0.41|0.3|
+0|Nightmare|/* Creature - Nightmare Horse|3rd Edition |R|3.99|3.19|2.79|2.0|Flying Nightmare's power and toughness are each equal to the number of Swamps you control.
+0|Veteran Bodyguard|Creature - Human|3rd Edition |R|3.99|3.19|2.79|2.0|As long as Veteran Bodyguard is untapped, all damage that would be dealt to you by unblocked creatures is dealt to Veteran Bodyguard instead.
+0|Mountain (A)|asic Land - Mountain|3rd Edition |L|0.39|0.31|0.27|0.2|
+0|Farmstead|nchantment - Aura|3rd Edition |R|2.79|2.23|1.95|1.4|Enchant land Enchanted land has "At the beginning of your upkeep, you may pay . If you do, you gain 1 life."
+0|Serra Angel|Creature - Angel|3rd Edition |U|1.49|1.19|1.04|0.75|Flying Vigilance (Attacking doesn't cause this creature to tap.)
+0|Nether Shadow|Creature - Spirit|3rd Edition |R|2.79|2.23|1.95|1.4|Haste At the beginning of your upkeep, if Nether Shadow is in your graveyard with three or more creature cards above it, you may put Nether Shadow onto the battlefield.
+0|Llanowar Elves|Creature - Elf Druid|3rd Edition |C|0.35|0.28|0.25|0.18|: Add .
+0|Gaea's Liege|/* Creature - Avatar|3rd Edition |R|1.79|1.43|1.25|0.9|As long as Gaea's Liege isn't attacking, its power and toughness are each equal to the number of Forests you control. As long as Gaea's Liege is attacking, its power and toughness are each equal to the number of Forests defending player controls. : Target land becomes a Forest until Gaea's Liege leaves the battlefield.
+0|Hurkyl's Recall|nstant|3rd Edition |R|3.49|2.79|2.44|1.75|Return all artifacts target player owns to their hand.
+0|Lord of the Pit|Creature - Demon|3rd Edition |R|2.29|1.83|1.6|1.15|Flying, trample At the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.
+0|Mijae Djinn|Creature - Djinn|3rd Edition |R|1.99|1.59|1.39|1.0|Whenever Mijae Djinn attacks, flip a coin. If you lose the flip, remove Mijae Djinn from combat and tap it.
+0|Regrowth|orcery|3rd Edition |U|1.29|1.03|0.9|0.65|Return target card from your graveyard to your hand.
+0|Kudzu|nchantment - Aura|3rd Edition |R|3.49|2.79|2.44|1.75|Enchant land When enchanted land becomes tapped, destroy it. That land’s controller may attach Kudzu to a land of their choice.
+0|Wild Growth|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant land Whenever enchanted land is tapped for mana, its controller adds an additional .
+0|Mountain (B)|asic Land - Mountain|3rd Edition |L|0.25|0.2|0.18|0.13|
+0|Keldon Warlord|/* Creature - Human Barbarian|3rd Edition |U|0.49|0.39|0.34|0.25|Keldon Warlord's power and toughness are each equal to the number of non-Wall creatures you control.
+0|Swamp (A)|asic Land - Swamp|3rd Edition |L|0.39|0.31|0.27|0.2|
+0|Blue Elemental Blast|nstant|3rd Edition |C|0.35|0.28|0.25|0.18|Choose one Counter target red spell. Destroy target red permanent.
+0|Ornithopter|Artifact Creature - Thopter|3rd Edition |U|0.79|0.63|0.55|0.4|Flying
+0|Island (C)|asic Land - Island|3rd Edition |L|0.59|0.47|0.41|0.3|
+0|Swamp (B)|asic Land - Swamp|3rd Edition |L|0.39|0.31|0.27|0.2|
+0|Forest (C)|asic Land - Forest|3rd Edition |L|0.35|0.28|0.25|0.18|
+0|Elvish Archers|Creature - Elf Archer|3rd Edition |R|1.99|1.59|1.39|1.0|First strike
+0|Black Vise|rtifact|3rd Edition |U|0.99|0.79|0.69|0.5|As Black Vise enters the battlefield, choose an opponent. At the beginning of the chosen player’s upkeep, Black Vise deals X damage to that player, where X is the number of cards in their hand minus 4.
+0|Island (A)|asic Land - Island|3rd Edition |L|0.49|0.39|0.34|0.25|
+0|Drain Power|orcery|3rd Edition |R|2.79|2.23|1.95|1.4|Target player activates a mana ability of each land they control. Then that player loses all unspent mana and you add the mana lost this way.
+0|Roc of Kher Ridges|Creature - Bird|3rd Edition |R|2.49|1.99|1.74|1.25|Flying
+0|Jayemdae Tome|rtifact|3rd Edition |R|1.99|1.59|1.39|1.0|, : Draw a card.
+0|Plains (B)|asic Land - Plains|3rd Edition |L|0.29|0.23|0.2|0.15|
+0|Manabarbs|nchantment|3rd Edition |R|1.79|1.43|1.25|0.9|Whenever a player taps a land for mana, Manabarbs deals 1 damage to that player.
+0|Reverse Damage|nstant|3rd Edition |R|1.99|1.59|1.39|1.0|The next time a source of your choice would deal damage to you this turn, prevent that damage. You gain life equal to the damage prevented this way.
+0|Mana Short|nstant|3rd Edition |R|2.49|1.99|1.74|1.25|Tap all lands target player controls and that player loses all unspent mana.
+0|Forest (B)|asic Land - Forest|3rd Edition |L|0.29|0.23|0.2|0.15|
+0|Power Surge|nchantment|3rd Edition |R|1.99|1.59|1.39|1.0|At the beginning of each player’s upkeep, Power Surge deals X damage to that player, where X is the number of untapped lands they controlled at the beginning of this turn.
+0|Atog|Creature - Atog|3rd Edition |C|0.25|0.2|0.18|0.13|Sacrifice an artifact: Atog gets +2/+2 until end of turn.
+0|Cockatrice|Creature - Cockatrice|3rd Edition |R|1.99|1.59|1.39|1.0|Flying Whenever Cockatrice blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat.
+0|Plains (A)|asic Land - Plains|3rd Edition |L|0.29|0.23|0.2|0.15|
+0|Earthbind|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature When Earthbind enters the battlefield, if enchanted creature has flying, Earthbind deals 2 damage to that creature and Earthbind gains "Enchanted creature loses flying."
+0|Northern Paladin|Creature - Human Knight|3rd Edition |R|1.49|1.19|1.04|0.75|, : Destroy target black permanent.
+0|Benalish Hero|Creature - Human Soldier|3rd Edition |C|0.25|0.2|0.18|0.13|Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+0|Disenchant|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Destroy target artifact or enchantment.
+0|Darkpact|orcery|3rd Edition |R|1.79|1.43|1.25|0.9|Remove Darkpact from your deck before playing if you're not playing for ante. You own target card in the ante. Exchange that card with the top card of your library.
+0|Fireball|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players. Fireball costs more to cast for each target beyond the first.
+0|Glasses of Urza|rtifact|3rd Edition |U|0.39|0.31|0.27|0.2|: Look at target player's hand.
+0|Force of Nature|Creature - Elemental|3rd Edition |R|2.49|1.99|1.74|1.25|Trample At the beginning of your upkeep, Force of Nature deals 8 damage to you unless you pay .
+0|Disrupting Scepter|rtifact|3rd Edition |R|0.99|0.79|0.69|0.5|, : Target player discards a card. Activate this ability only during your turn.
+0|Rocket Launcher|rtifact|3rd Edition |R|1.29|1.03|0.9|0.65|: Rocket Launcher deals 1 damage to any target. Destroy Rocket Launcher at the beginning of the next end step. Activate this ability only if you've controlled Rocket Launcher continuously since the beginning of your most recent turn.
+0|Jandor's Saddlebags|rtifact|3rd Edition |R|0.99|0.79|0.69|0.5|, : Untap target creature.
+0|Sengir Vampire|Creature - Vampire|3rd Edition |U|0.35|0.28|0.25|0.18|Flying (This creature can't be blocked except by creatures with flying or reach.) Whenever a creature dealt damage by Sengir Vampire this turn is put into a graveyard, put a +1/+1 counter on Sengir Vampire.
+0|Millstone|rtifact|3rd Edition |R|1.49|1.19|1.04|0.75|, : Target player mills two cards.
+0|Control Magic|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature You control enchanted creature.
+0|Mountain (C)|asic Land - Mountain|3rd Edition |L|0.39|0.31|0.27|0.2|
+0|Sunglasses of Urza|rtifact|3rd Edition |R|0.99|0.79|0.69|0.5|You may spend white mana as though it were red mana.
+0|Sorceress Queen|Creature - Human Wizard|3rd Edition |R|2.29|1.83|1.6|1.15|: Target creature other than Sorceress Queen is 0/2 until end of turn.
+0|Righteousness|nstant|3rd Edition |R|1.49|1.19|1.04|0.75|Target blocking creature gets +7/+7 until end of turn.
+0|Instill Energy|nchantment - Aura|3rd Edition |U|0.59|0.47|0.41|0.3|Enchant creature Enchanted creature can attack as though it had haste. : Untap enchanted creature. Activate this ability only during your turn and only once each turn.
+0|Lifelace|nstant|3rd Edition |R|0.99|0.79|0.69|0.5|Target spell or permanent becomes green. (Mana symbols on that permanent remain unchanged.)
+0|Clone|Creature - Shapeshifter|3rd Edition |U|0.39|0.31|0.27|0.2|You may have Clone enter the battlefield as a copy of any creature on the battlefield.
+0|Fog|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Prevent all combat damage that would be dealt this turn.
+0|Titania's Song|nchantment|3rd Edition |R|0.99|0.79|0.69|0.5|Each noncreature artifact loses all abilities and becomes an artifact creature with power and toughness each equal to its converted mana cost. If Titania's Song leaves the battlefield, this effect continues until end of turn.
+0|Volcanic Eruption|orcery|3rd Edition |R|0.99|0.79|0.69|0.5|Destroy X target Mountains. Volcanic Eruption deals damage to each creature and each player equal to the number of Mountains put into a graveyard this way.
+0|Black Knight|Creature - Human Knight|3rd Edition |U|0.49|0.39|0.34|0.25|First strike (This creature deals combat damage before creatures without first strike.) Protection from white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything white.)
+0|Terror|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Destroy target nonartifact, nonblack creature. It can't be regenerated.
+0|White Knight|Creature - Human Knight|3rd Edition |U|0.35|0.28|0.25|0.18|First strike (This creature deals combat damage before creatures without first strike.) Protection from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.)
+0|Juggernaut|Artifact Creature - Juggernaut|3rd Edition |U|0.39|0.31|0.27|0.2|Juggernaut attacks each turn if able. Juggernaut can't be blocked by Walls.
+0|Aspect of Wolf|nchantment - Aura|3rd Edition |R|0.69|0.55|0.48|0.35|Enchant creature Enchanted creature gets +X/+Y, where X is half the number of Forests you control, rounded down, and Y is half the number of Forests you control, rounded up.
+0|Dingus Egg|rtifact|3rd Edition |R|0.79|0.63|0.55|0.4|Whenever a land is put into a graveyard from the battlefield, Dingus Egg deals 2 damage to that land's controller.
+0|Magical Hack|nstant|3rd Edition |R|0.79|0.63|0.55|0.4|Change the text of target spell or permanent by replacing all instances of one basic land type with another. (For example, you may change "swampwalk" to "plainswalk." This effect lasts indefinitely.)
+0|Pestilence|nchantment|3rd Edition |C|0.25|0.2|0.18|0.13|At the beginning of the end step, if no creatures are on the battlefield, sacrifice Pestilence. : Pestilence deals 1 damage to each creature and each player.
+0|Living Artifact|nchantment - Aura|3rd Edition |R|0.79|0.63|0.55|0.4|Enchant artifact Whenever you're dealt damage, put that many vitality counters on Living Artifact. At the beginning of your upkeep, you may remove a vitality counter from Living Artifact. If you do, you gain 1 life.
+0|Magnetic Mountain|nchantment|3rd Edition |R|0.59|0.47|0.41|0.3|Blue creatures don't untap during their controllers' untap steps. At the beginning of each player’s upkeep, that player may choose any number of tapped blue creatures they control and pay for each creature chosen this way. If the player does, untap those creatures.
+0|Energy Flux|nchantment|3rd Edition |U|0.29|0.23|0.2|0.15|All artifacts have "At the beginning of your upkeep, sacrifice this artifact unless you pay ."
+0|Giant Growth|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Target creature gets +3/+3 until end of turn.
+0|Pirate Ship|Creature - Human Pirate|3rd Edition |R|0.79|0.63|0.55|0.4|Pirate Ship can't attack unless defending player controls an Island. : Pirate Ship deals 1 damage to any target. When you control no Islands, sacrifice Pirate Ship.
+0|Kird Ape|Creature - Ape|3rd Edition |C|0.25|0.2|0.18|0.13|Kird Ape gets +1/+2 as long as you control a Forest.
+0|Shatterstorm|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Destroy all artifacts. They can't be regenerated.
+0|Gloom|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|White spells cost more to cast. Activated abilities of white enchantments cost more to activate.
+0|Paralyze|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature When Paralyze enters the battlefield, tap enchanted creature. Enchanted creature doesn't untap during its controller's untap step. At the beginning of the upkeep of enchanted creature’s controller, that player may pay . If the player does, untap the creature.
+0|Personal Incarnation|Creature - Avatar Incarnation|3rd Edition |R|0.99|0.79|0.69|0.5|: The next 1 damage that would be dealt to Personal Incarnation this turn is dealt to its owner instead. Only Personal Incarnation’s owner may activate this ability. When Personal Incarnation dies, its owner loses half their life, rounded up.
+0|Drain Life|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Spend only black mana on X. Drain Life deals X damage to any target. You gain life equal to the damage dealt, but not more life than the player's life total before Drain Life dealt damage or the creature's toughness.
+0|Aladdin's Ring|rtifact|3rd Edition |R|0.79|0.63|0.55|0.4|, : Aladdin's Ring deals 4 damage to any target.
+0|Dragon Whelp|Creature - Dragon|3rd Edition |U|0.25|0.2|0.18|0.13|Flying : Dragon Whelp gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice Dragon Whelp at the beginning of the next end step.
+0|Blessing|nchantment - Aura|3rd Edition |R|0.99|0.79|0.69|0.5|: Enchanted creature gets +1/+1 until end of turn.
+0|Web|nchantment - Aura|3rd Edition |R|0.79|0.63|0.55|0.4|Enchant creature Enchanted creature gets +0/+2 and has reach. (It can block creatures with flying.)
+0|The Hive|rtifact|3rd Edition |R|0.79|0.63|0.55|0.4|, : Put a 1/1 colorless Insect artifact creature token with flying named Wasp onto the battlefield. (It can't be blocked except by creatures with flying or reach.)
+0|Thoughtlace|nstant|3rd Edition |R|0.79|0.63|0.55|0.4|Target spell or permanent becomes blue. (Mana symbols on that permanent remain unchanged.)
+0|Onulet|Artifact Creature - Construct|3rd Edition |R|0.69|0.55|0.48|0.35|When Onulet is put into a graveyard from the battlefield, you gain 2 life.
+0|Channel|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add .
+0|Wall of Ice|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.)
+0|Living Wall|Artifact Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.) : Regenerate Living Wall.
+0|Flying Carpet|rtifact|3rd Edition |R|0.69|0.55|0.48|0.35|,: Target creature gains flying until end of turn.
+0|Holy Strength|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature gets +1/+2.
+0|Shatter|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Destroy target artifact.
+0|Jandor's Ring|rtifact|3rd Edition |R|0.59|0.47|0.41|0.3|, , Discard the last card you drew this turn: Draw a card.
+0|Stone Rain|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Destroy target land.
+0|Scryb Sprites|Creature - Faerie|3rd Edition |C|0.25|0.2|0.18|0.13|Flying
+0|Animate Wall|nchantment - Aura|3rd Edition |R|0.59|0.47|0.41|0.3|Enchant Wall Enchanted Wall can attack as though it didn't have defender.
+0|Mishra's War Machine|Artifact Creature - Juggernaut|3rd Edition |R|0.59|0.47|0.41|0.3|Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.) At the beginning of your upkeep, Mishra's War Machine deals 3 damage to you unless you discard a card. If Mishra's War Machine deals damage to you this way, tap it.
+0|Tsunami|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Destroy all Islands.
+0|Unsummon|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Return target creature to its owner's hand.
+0|Circle of Protection: Black|nchantment|3rd Edition |C|0.25|0.2|0.18|0.13|: The next time a black source of your choice would deal damage to you this turn, prevent that damage.
+0|Fungusaur|Creature - Fungus Dinosaur|3rd Edition |R|0.69|0.55|0.48|0.35|Whenever Fungusaur is dealt damage, put a +1/+1 counter on it.
+0|Dancing Scimitar|Artifact Creature - Spirit|3rd Edition |R|0.99|0.79|0.69|0.5|Flying (This creature can't be blocked except by creatures with flying or reach.)
+0|Chaoslace|nstant|3rd Edition |R|0.59|0.47|0.41|0.3|Target spell or permanent becomes red. (Its mana symbols remain unchanged.)
+0|Eye for an Eye|nstant|3rd Edition |R|0.49|0.39|0.34|0.25|The next time a source of your choice would deal damage to you this turn, instead that source deals that much damage to you and Eye for an Eye deals that much damage to that source's controller.
+0|Howl from Beyond|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Target creature gets +X/+0 until end of turn.
+0|Disintegrate|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Disintegrate deals X damage to any target. That creature can't be regenerated this turn. If the creature would be put into a graveyard this turn, exile it instead.
+0|Nettling Imp|Creature - Imp|3rd Edition |U|0.25|0.2|0.18|0.13|: Choose target non-Wall creature the active player has controlled continuously since the beginning of the turn. That creature attacks this turn if able. If it doesn't, destroy it at the beginning of the next end step. Activate this ability only during an opponent's turn, before attackers are declared.
+0|Wall of Bone|Creature - Skeleton Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.) : Regenerate Wall of Bone. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+0|Circle of Protection: Red|nchantment|3rd Edition |C|0.25|0.2|0.18|0.13|: The next time a red source of your choice would deal damage to you this turn, prevent that damage.
+0|Prodigal Sorcerer|Creature - Human Wizard|3rd Edition |C|0.25|0.2|0.18|0.13|: Prodigal Sorcerer deals 1 damage to any target.
+0|Resurrection|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Return target creature card from your graveyard to the battlefield.
+0|Unstable Mutation|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature gets +3/+3. At the beginning of the upkeep of enchanted creature's controller, put a -1/-1 counter on that creature.
+0|Helm of Chatzuk|rtifact|3rd Edition |R|0.59|0.47|0.41|0.3|, : Target creature gains banding until end of turn. (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding a player controls are blocking or being blocked by a creature, that player divides that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+0|Island Fish Jasconius|Creature - Fish|3rd Edition |R|0.59|0.47|0.41|0.3|Island Fish Jasconius doesn't untap during your untap step. At the beginning of your upkeep, you may pay . If you do, untap Island Fish Jasconius. Island Fish Jasconius can't attack unless defending player controls an Island. When you control no Islands, sacrifice Island Fish Jasconius.
+0|Bottle of Suleiman|rtifact|3rd Edition |R|0.69|0.55|0.48|0.35|, Sacrifice Bottle of Suleiman: Flip a coin. If you win the flip, create a 5/5 colorless Djinn artifact creature token with flying. If you lose the flip, Bottle of Suleiman deals 5 damage to you.
+0|Air Elemental|Creature - Elemental|3rd Edition |U|0.25|0.2|0.18|0.13|Flying
+0|Circle of Protection: Green|nchantment|3rd Edition |C|0.25|0.2|0.18|0.13|: The next time a green source of your choice would deal damage to you this turn, prevent that damage.
+0|Drudge Skeletons|Creature - Skeleton|3rd Edition |C|0.25|0.2|0.18|0.13|: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+0|Evil Presence|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant land Enchanted land is a Swamp.
+0|Grizzly Bears|Creature - Bear|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Living Lands|nchantment|3rd Edition |R|0.39|0.31|0.27|0.2|All Forests are 1/1 creatures that are still lands.
+0|Timber Wolves|Creature - Wolf|3rd Edition |R|0.49|0.39|0.34|0.25|Banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+0|Warp Artifact|nchantment - Aura|3rd Edition |R|0.49|0.39|0.34|0.25|Enchant artifact At the beginning of the upkeep of enchanted artifact's controller, Warp Artifact deals 1 damage to that player.
+0|Desert Twister|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Destroy target permanent.
+0|Lance|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has first strike.
+0|Raise Dead|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Return target creature card from your graveyard to your hand.
+0|Flashfires|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Destroy all Plains.
+0|Karma|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|At the beginning of each player’s upkeep, Karma deals damage to that player equal to the number of Swamps they control.
+0|Thicket Basilisk|Creature - Basilisk|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever Thicket Basilisk blocks or becomes blocked by a non-Wall creature, destroy that creature at end of combat.
+0|Wall of Air|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender, flying (This creature can't attack, and it can block creatures with flying.)
+0|War Mammoth|Creature - Elephant|3rd Edition |C|0.25|0.2|0.18|0.13|Trample
+0|Circle of Protection: White|nchantment|3rd Edition |C|0.25|0.2|0.18|0.13|: The next time a white source of your choice would deal damage to you this turn, prevent that damage.
+0|Crumble|nstant|3rd Edition |U|0.25|0.2|0.18|0.13|Destroy target artifact. It can't be regenerated. That artifact's controller gains life equal to its converted mana cost.
+0|Hurricane|orcery|3rd Edition |U|0.25|0.2|0.18|0.13|Hurricane deals X damage to each creature with flying and each player.
+0|Ley Druid|Creature - Human Druid|3rd Edition |U|0.25|0.2|0.18|0.13|: Untap target land.
+0|Jade Monolith|rtifact|3rd Edition |R|0.39|0.31|0.27|0.2|: The next time a source of your choice would deal damage to target creature this turn, that source deals that damage to you instead.
+0|Circle of Protection: Blue|nchantment|3rd Edition |C|0.25|0.2|0.18|0.13|: The next time a blue source of your choice would deal damage to you this turn, prevent that damage.
+0|Dwarven Weaponsmith|Creature - Dwarf Artificer|3rd Edition |U|0.25|0.2|0.18|0.13|, Sacrifice an artifact: Put a +1/+1 counter on target creature. Activate this ability only during your upkeep.
+0|Brass Man|Artifact Creature - Construct|3rd Edition |U|0.25|0.2|0.18|0.13|Brass Man doesn't untap during your untap step. At the beginning of your upkeep, you may pay . If you do, untap Brass Man.
+0|Cursed Land|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant land At the beginning of the upkeep of enchanted land's controller, Cursed Land deals 1 damage to that player.
+0|Dwarven Warriors|Creature - Dwarf Warrior|3rd Edition |C|0.25|0.2|0.18|0.13|: Target creature with power 2 or less is unblockable this turn.
+0|Stream of Life|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Target player gains X life.
+0|Reconstruction|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Return target artifact card from your graveyard to your hand.
+0|Unholy Strength|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature gets +2/+1.
+0|Wall of Swords|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender, flying (This creature can't attack, and it can block creatures with flying.)
+0|Aladdin's Lamp|rtifact|3rd Edition |R|0.49|0.39|0.34|0.25|, : The next time you would draw a card this turn, instead look at the top X cards of your library, put all but one of them on the bottom of your library in a random order, then draw a card. X can't be 0.
+0|Primal Clay|/* Artifact Creature - Shapeshifter|3rd Edition |R|0.39|0.31|0.27|0.2|As Primal Clay enters the battlefield, it becomes your choice of a 3/3 artifact creature, a 2/2 artifact creature with flying, or a 1/6 Shapeshifter Wall artifact creature with defender.
+0|Lifeforce|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|: Counter target black spell.
+0|Purelace|nstant|3rd Edition |R|0.35|0.28|0.25|0.18|Target spell or permanent becomes white. (Mana symbols on that permanent remain unchanged.)
+0|Bog Wraith|Creature - Wraith|3rd Edition |U|0.25|0.2|0.18|0.13|Swampwalk (This creature is unblockable as long as defending player controls a Swamp.)
+0|Craw Wurm|Creature - Wurm|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Giant Spider|Creature - Spider|3rd Edition |C|0.25|0.2|0.18|0.13|Reach (This creature can block creatures with flying.)
+0|Goblin Balloon Brigade|Creature - Goblin Warrior|3rd Edition |U|0.25|0.2|0.18|0.13|: Goblin Balloon Brigade gains flying until end of turn. (It can't be blocked except by creatures with flying or reach.)
+0|Tranquility|orcery|3rd Edition |C|0.25|0.2|0.18|0.13|Destroy all enchantments.
+0|Sleight of Mind|nstant|3rd Edition |R|0.59|0.47|0.41|0.3|Change the text of target spell or permanent by replacing all instances of one color word with another. (For example, you may change "target black spell" to "target blue spell." This effect lasts indefinitely.)
+0|Armageddon Clock|rtifact|3rd Edition |R|0.35|0.28|0.25|0.18|At the beginning of your upkeep, put a doom counter on Armageddon Clock. At the beginning of your draw step, Armageddon Clock deals damage equal to the number of doom counters on it to each player. : Remove a doom counter from Armageddon Clock. Any player may activate this ability but only during any upkeep step.
+0|Castle|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|Untapped creatures you control get +0/+2.
+0|Healing Salve|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Choose one - Target player gains 3 life; or prevent the next 3 damage that would be dealt to any target this turn.
+0|Merfolk of the Pearl Trident|Creature - Merfolk|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Erg Raiders|Creature - Human Warrior|3rd Edition |C|0.25|0.2|0.18|0.13|At the beginning of your end step, if Erg Raiders didn't attack this turn, Erg Raiders deals 2 damage to you unless it came under your control this turn.
+0|Uthden Troll|Creature - Troll|3rd Edition |U|0.25|0.2|0.18|0.13|: Regenerate Uthden Troll.
+0|Dragon Engine|Artifact Creature - Construct|3rd Edition |R|0.49|0.39|0.34|0.25|: Dragon Engine gets +1/+0 until end of turn.
+0|Ebony Horse|rtifact|3rd Edition |R|0.49|0.39|0.34|0.25|,: Untap target attacking creature you control. Prevent all combat damage that would be dealt to and dealt by that creature this turn.
+0|Black Ward|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has protection from black. This effect doesn't remove Black Ward.
+0|Deathgrip|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|: Counter target green spell.
+0|Lifetap|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a Forest an opponent controls becomes tapped, you gain 1 life.
+0|Clockwork Beast|Artifact Creature - Beast|3rd Edition |R|0.59|0.47|0.41|0.3|Clockwork Beast enters the battlefield with seven +1/+0 counters on it. At end of combat, if Clockwork Beast attacked or blocked this combat, remove a +1/+0 counter from it. , : Put up to X +1/+0 counters on Clockwork Beast. This ability can't cause the total number of +1/+0 counters on Clockwork Beast to be greater than seven. Activate this ability only during your upkeep.
+0|Firebreathing|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature : Enchanted creature gets +1/+0 until end of turn.
+0|Green Ward|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has protection from green. This effect doesn't remove Green Ward.
+0|Mons's Goblin Raiders|Creature - Goblin|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Power Sink|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Counter target spell unless its controller pays . If that player doesn’t, they tap all lands with mana abilities they control and lose all unspent mana.
+0|Psychic Venom|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant land Whenever enchanted land becomes tapped, Psychic Venom deals 2 damage to that land's controller.
+0|Siren's Call|nstant|3rd Edition |U|0.25|0.2|0.18|0.13|Cast Siren's Call only during an opponent's turn, before attackers are declared. Creatures the active player controls attack this turn if able. At the beginning of the next end step, destroy all non-Wall creatures that player controls that didn't attack this turn. Ignore this effect for each creature the player didn't control continuously since the beginning of the turn.
+0|Deathlace|nstant|3rd Edition |R|0.49|0.39|0.34|0.25|Target spell or permanent becomes black. (Mana symbols on that permanent remain unchanged.)
+0|Phantasmal Terrain|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant land As Phantasmal Terrain enters the battlefield, choose a basic land type. Enchanted land is the chosen type.
+0|Lure|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature All creatures able to block enchanted creature do so.
+0|Simulacrum|nstant|3rd Edition |U|0.25|0.2|0.18|0.13|You gain life equal to the damage dealt to you this turn. Simulacrum deals damage to target creature you control equal to the damage dealt to you this turn.
+0|Wall of Water|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.) : Wall of Water gets +1/+0 until end of turn.
+0|Wall of Wood|Creature - Wall|3rd Edition |C|0.25|0.2|0.18|0.13|Defender (This creature can't attack.)
+0|Conversion|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|At the beginning of your upkeep, sacrifice Conversion unless you pay . All Mountains are Plains.
+0|Ivory Cup|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a player casts a white spell, you may pay . If you do, you gain 1 life.
+0|Power Leak|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant enchantment At the beginning of the upkeep of enchanted enchantment's controller, that player may pay any amount of mana. Power Leak deals 2 damage to that player. Prevent X of that damage, where X is the amount of mana that player paid this way.
+0|Soul Net|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a creature is put into a graveyard from the battlefield, you may pay . If you do, you gain 1 life.
+0|Wooden Sphere|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a player casts a green spell, you may pay . If you do, you gain 1 life.
+0|Fire Elemental|Creature - Elemental|3rd Edition |U|0.25|0.2|0.18|0.13|
+0|Holy Armor|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature gets +0/+2. : Enchanted creature gets +0/+1 until end of turn.
+0|Orcish Oriflamme|nchantment|3rd Edition |U|0.25|0.2|0.18|0.13|Attacking creatures you control get +1/+0.
+0|Regeneration|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature : Regenerate enchanted creature. (The next time that creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)
+0|Throne of Bone|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a player casts a black spell, you may pay . If you do, you gain 1 life.
+0|Weakness|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature gets -2/-1.
+0|Burrowing|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has mountainwalk.
+0|Crystal Rod|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a player casts a blue spell, you may pay . If you do, you gain 1 life.
+0|Earth Elemental|Creature - Elemental|3rd Edition |U|0.25|0.2|0.18|0.13|
+0|Fear|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)
+0|Iron Star|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|Whenever a player casts a red spell, you may pay . If you do, you gain 1 life.
+0|Phantom Monster|Creature - Illusion|3rd Edition |U|0.25|0.2|0.18|0.13|Flying
+0|Samite Healer|Creature - Human Cleric|3rd Edition |C|0.25|0.2|0.18|0.13|: Prevent the next 1 damage that would be dealt to any target this turn.
+0|Steal Artifact|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant artifact You control enchanted artifact.
+0|Wall of Brambles|Creature - Plant Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.) : Regenerate Wall of Brambles.
+0|Wanderlust|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature At the beginning of the upkeep of enchanted creature's controller, Wanderlust deals 1 damage to that player.
+0|Death Ward|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Regenerate target creature.
+0|Flight|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has flying. (It can't be blocked except by creatures with flying or reach.)
+0|Hill Giant|Creature - Giant|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Plague Rats|/* Creature - Rat|3rd Edition |C|0.25|0.2|0.18|0.13|Plague Rats's power and toughness are each equal to the number of creatures named Plague Rats on the battlefield.
+0|Red Ward|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has protection from red. This effect doesn't remove Red Ward.
+0|Sea Serpent|Creature - Serpent|3rd Edition |C|0.25|0.2|0.18|0.13|Sea Serpent can't attack unless defending player controls an Island. When you control no Islands, sacrifice Sea Serpent.
+0|Shanodin Dryads|Creature - Nymph Dryad|3rd Edition |C|0.25|0.2|0.18|0.13|Forestwalk
+0|Stone Giant|Creature - Giant|3rd Edition |U|0.25|0.2|0.18|0.13|: Target creature you control with toughness less than Stone Giant's power gains flying until end of turn. Destroy that creature at the beginning of the next end step.
+0|Wall of Stone|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.)
+0|El-Hajjaj|Creature - Human Wizard|3rd Edition |R|0.35|0.28|0.25|0.18|Lifelink (Whenever this creature deals damage, you gain that much life.)
+0|Celestial Prism|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|, : Add one mana of any color.
+0|Conservator|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|, : Prevent the next 2 damage that would be dealt to you this turn.
+0|Creature Bond|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature When enchanted creature is put into a graveyard, Creature Bond deals damage equal to that creature's toughness to the creature's controller.
+0|Feedback|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|At the beginning of the upkeep of enchanted enchantment's controller, Feedback deals 1 damage to that player.
+0|Frozen Shade|Creature - Shade|3rd Edition |C|0.25|0.2|0.18|0.13|: Frozen Shade gets +1/+1 until end of turn.
+0|Gray Ogre|Creature - Ogre|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Water Elemental|Creature - Elemental|3rd Edition |U|0.25|0.2|0.18|0.13|
+0|Blue Ward|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has protection from blue. This effect doesn't remove Blue Ward.
+0|Guardian Angel|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Prevent the next X damage that would be dealt to any target this turn. Until end of turn, you may pay any time you could cast an instant. If you do, prevent the next 1 damage that would be dealt to that creature or player this turn.
+0|Mesa Pegasus|Creature - Pegasus|3rd Edition |C|0.25|0.2|0.18|0.13|Flying; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+0|Phantasmal Forces|Creature - Illusion|3rd Edition |U|0.25|0.2|0.18|0.13|Flying At the beginning of your upkeep, sacrifice Phantasmal Forces unless you pay .
+0|Reverse Polarity|nstant|3rd Edition |U|0.25|0.2|0.18|0.13|You gain X life, where X is twice the damage dealt to you so far this turn by artifacts.
+0|Rod of Ruin|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|, : Rod of Ruin deals 1 damage to any target.
+0|Wall of Fire|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.) : Wall of Fire gets +1/+0 until end of turn.
+0|Hurloon Minotaur|Creature - Minotaur|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Ironroot Treefolk|Creature - Treefolk|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Orcish Artillery|Creature - Orc Warrior|3rd Edition |U|0.25|0.2|0.18|0.13|: Orcish Artillery deals 2 damage to any target and 3 damage to you.
+0|Pearled Unicorn|Creature - Unicorn|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Scathe Zombies|Creature - Zombie|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Spell Blast|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Counter target spell with converted mana cost X.
+0|Animate Artifact|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant artifact As long as enchanted artifact isn't a creature, it's an artifact creature with power and toughness each equal to its converted mana cost.
+0|Shanodin Dryads|Creature - Nymph Dryad|3rd Edition |C|0.25|0.2|0.18|0.13|Forestwalk
+0|Stone Giant|Creature - Giant|3rd Edition |U|0.25|0.2|0.18|0.13|: Target creature you control with toughness less than Stone Giant's power gains flying until end of turn. Destroy that creature at the beginning of the next end step.
+0|Wall of Stone|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.)
+0|El-Hajjaj|Creature - Human Wizard|3rd Edition |R|0.35|0.28|0.25|0.18|Lifelink (Whenever this creature deals damage, you gain that much life.)
+0|Celestial Prism|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|, : Add one mana of any color.
+0|Conservator|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|, : Prevent the next 2 damage that would be dealt to you this turn.
+0|Creature Bond|nchantment - Aura|3rd Edition |C|0.25|0.2|0.18|0.13|Enchant creature When enchanted creature is put into a graveyard, Creature Bond deals damage equal to that creature's toughness to the creature's controller.
+0|Feedback|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|At the beginning of the upkeep of enchanted enchantment's controller, Feedback deals 1 damage to that player.
+0|Frozen Shade|Creature - Shade|3rd Edition |C|0.25|0.2|0.18|0.13|: Frozen Shade gets +1/+1 until end of turn.
+0|Gray Ogre|Creature - Ogre|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Water Elemental|Creature - Elemental|3rd Edition |U|0.25|0.2|0.18|0.13|
+0|Blue Ward|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant creature Enchanted creature has protection from blue. This effect doesn't remove Blue Ward.
+0|Guardian Angel|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Prevent the next X damage that would be dealt to any target this turn. Until end of turn, you may pay any time you could cast an instant. If you do, prevent the next 1 damage that would be dealt to that creature or player this turn.
+0|Mesa Pegasus|Creature - Pegasus|3rd Edition |C|0.25|0.2|0.18|0.13|Flying; banding (Any creatures with banding, and up to one without, can attack in a band. Bands are blocked as a group. If any creatures with banding you control are blocking or being blocked by a creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)
+0|Phantasmal Forces|Creature - Illusion|3rd Edition |U|0.25|0.2|0.18|0.13|Flying At the beginning of your upkeep, sacrifice Phantasmal Forces unless you pay .
+0|Reverse Polarity|nstant|3rd Edition |U|0.25|0.2|0.18|0.13|You gain X life, where X is twice the damage dealt to you so far this turn by artifacts.
+0|Rod of Ruin|rtifact|3rd Edition |U|0.25|0.2|0.18|0.13|, : Rod of Ruin deals 1 damage to any target.
+0|Wall of Fire|Creature - Wall|3rd Edition |U|0.25|0.2|0.18|0.13|Defender (This creature can't attack.) : Wall of Fire gets +1/+0 until end of turn.
+0|Hurloon Minotaur|Creature - Minotaur|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Ironroot Treefolk|Creature - Treefolk|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Orcish Artillery|Creature - Orc Warrior|3rd Edition |U|0.25|0.2|0.18|0.13|: Orcish Artillery deals 2 damage to any target and 3 damage to you.
+0|Pearled Unicorn|Creature - Unicorn|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Scathe Zombies|Creature - Zombie|3rd Edition |C|0.25|0.2|0.18|0.13|
+0|Spell Blast|nstant|3rd Edition |C|0.25|0.2|0.18|0.13|Counter target spell with converted mana cost X.
+0|Animate Artifact|nchantment - Aura|3rd Edition |U|0.25|0.2|0.18|0.13|Enchant artifact As long as enchanted artifact isn't a creature, it's an artifact creature with power and toughness each equal to its converted mana cost.

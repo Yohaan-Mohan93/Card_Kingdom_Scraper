@@ -1,7 +1,9 @@
+import time
+import re
+import undetected_chromedriver.v2 as uc
 from urllib.error import HTTPError, URLError
 from .ck_mtg_card import *
 from helper import *
-import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -14,11 +16,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 def scrape(start_url, card_list, urls, all_cards_placements):
     try:
         url = start_url
-        options = Options()
-        options.headless = True
-        options.add_experimental_option('excludeSwitches',['enable-logging'])
-        service = Service(ChromeDriverManager().install())
-        browser = webdriver.Chrome(service=service, options=options)
+        options = uc.ChromeOptions()
+        #options.add_argument("--disable-blink-features=AutomationControlled")
+        #options.add_experimental_option('excludeSwitches',['enable-logging'])
+        #service = Service(ChromeDriverManager().install())
+        #browser = webdriver.Chrome(service=service, options=options)
+        browser = uc.Chrome(options=options)
         browser.get(url)
         wait = WebDriverWait(browser, 20)
 
@@ -42,7 +45,7 @@ def scrape(start_url, card_list, urls, all_cards_placements):
                 this_type = ''
                 if has_number(card_type):
                     types = re.split('(\d+)', card_type)
-                    this_type = types[len(types)].strip()
+                    this_type = types[len(types) - 1].strip()
                 else:
                     this_type = card_type.strip()
                 this_set_rarity = card_sets[set_count].text.strip().split('(')
